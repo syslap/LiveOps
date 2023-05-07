@@ -30,7 +30,7 @@ export default async function (event, context, logger) {
     logger.info(`STDOUT: ${stdout}`);
   });
 
-  exec("cd ../.. && sfdx force:source:status -u yahmani-s1jl@force.com.stage --json", (error, stdout, stderr) => {
+  exec("cd ../.. && sfdx force:source:status -o ScratchOne --json", (error, stdout, stderr) => {
     if (error) {
       logger.info(`error: ${error.message}`);
       return;
