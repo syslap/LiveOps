@@ -1,0 +1,139 @@
+{
+  "versionDetail": {
+    "cliVersion": "@salesforce/cli/1.77.1",
+    "architecture": "darwin-arm64",
+    "nodeVersion": "node-v18.16.0",
+    "osVersion": "Darwin 22.1.0",
+    "shell": "zsh",
+    "rootPath": "/Users/youssef/.local/share/sfdx/client/7.199.7-cc56357/sf",
+    "pluginVersions": [
+      "@oclif/plugin-autocomplete 2.1.9 (core)",
+      "@oclif/plugin-commands 2.2.14 (core)",
+      "@oclif/plugin-help 5.2.9 (core)",
+      "@oclif/plugin-not-found 2.3.23 (core)",
+      "@oclif/plugin-plugins 2.4.7 (core)",
+      "@oclif/plugin-search 0.0.16 (core)",
+      "@oclif/plugin-update 3.1.13 (core)",
+      "@oclif/plugin-version 1.3.3 (core)",
+      "@oclif/plugin-warn-if-update-available 2.0.36 (core)",
+      "@oclif/plugin-which 2.2.19 (core)",
+      "@salesforce/cli 1.77.1 (core)",
+      "apex 2.2.14 (core)",
+      "auth 2.7.14 (core)",
+      "data 2.3.12 (core)",
+      "deploy-retrieve 1.8.18 (core)",
+      "info 2.6.8 (core)",
+      "limits 2.3.13 (core)",
+      "login 1.2.7 (core)",
+      "org 2.7.2 (core)",
+      "schema 2.3.10 (core)",
+      "settings 1.4.5 (core)",
+      "sobject 0.1.18 (core)",
+      "source 2.10.5 (core)",
+      "telemetry 2.1.6 (core)",
+      "templates 55.4.11 (core)",
+      "trust 2.4.12 (core)",
+      "user 2.3.9 (core)"
+    ]
+  },
+  "sfdxEnvVars": [],
+  "sfEnvVars": [
+    [
+      "SF_BINPATH",
+      "/Users/youssef/.local/share/sfdx/client/bin/sf"
+    ],
+    [
+      "SF_REDIRECTED",
+      "1"
+    ],
+    [
+      "SF_AUTOUPDATE_DISABLE",
+      "true"
+    ],
+    [
+      "SF_DISABLE_AUTOUPDATE",
+      "true"
+    ],
+    [
+      "SF_UPDATE_INSTRUCTIONS",
+      "Use \"npm update --global @salesforce/cli\" to update npm-based installations."
+    ]
+  ],
+  "cliConfig": {
+    "_base": "@oclif/core@2.8.2",
+    "debug": 0,
+    "topicSeparator": " ",
+    "warned": false,
+    "commandPermutations": {
+      "validPermutations": {}
+    },
+    "topicPermutations": {
+      "validPermutations": {}
+    },
+    "_commands": {},
+    "_topics": {},
+    "root": "/Users/youssef/.local/share/sfdx/client/7.199.7-cc56357/sf",
+    "name": "@salesforce/cli",
+    "version": "1.77.1",
+    "channel": "stable",
+    "valid": true,
+    "arch": "arm64",
+    "platform": "darwin",
+    "windows": false,
+    "bin": "sf",
+    "dirname": "sf",
+    "flexibleTaxonomy": true,
+    "userAgent": "@salesforce/cli/1.77.1 darwin-arm64 node-v18.16.0",
+    "shell": "zsh",
+    "home": "/Users/youssef",
+    "cacheDir": "/Users/youssef/Library/Caches/sf",
+    "configDir": "/Users/youssef/.config/sf",
+    "dataDir": "/Users/youssef/.local/share/sf",
+    "errlog": "/Users/youssef/Library/Caches/sf/error.log",
+    "binPath": "/Users/youssef/.local/share/sfdx/client/bin/sf",
+    "nodeEngine": ">=14.0.0"
+  },
+  "pluginSpecificData": {
+    "@salesforce/plugin-source": [
+      {
+        "sourceApiVersion": "56.0",
+        "targetDevHubApiVersion": "57.0",
+        "targetOrgApiVersion": "57.0"
+      }
+    ]
+  },
+  "diagnosticResults": [
+    {
+      "testName": "salesforcedx plugin not installed",
+      "status": "pass"
+    },
+    {
+      "testName": "no linked plugins",
+      "status": "pass"
+    },
+    {
+      "testName": "using latest or latest-rc CLI version",
+      "status": "unknown"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] default target DevHub max apiVersion matches default target org max apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches default target org max apiVersion",
+      "status": "warn"
+    }
+  ],
+  "suggestions": [
+    "Check https://github.com/forcedotcom/cli/issues for CLI issues posted by the community.",
+    "Check http://status.salesforce.com for general Salesforce availability and performance.",
+    "Couldn't determine latest CLI version due to:\n/bin/sh: npm: command not found\n",
+    "The sourceApiVersion in sfdx-project.json doesn't match the max apiVersion of the default target org. As a result, you're not using the latest features available in API version 57.0. The version mismatch isn't a problem, as long as it's the behavior you actually want."
+  ],
+  "logFilePaths": [],
+  "commandExitCode": 0
+}
