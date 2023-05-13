@@ -30,7 +30,7 @@ export default async function (event, context, logger) {
     logger.info(`STDOUT: ${stdout}`);
   });
 
-  exec("cd ../.. && sfdx force:source:status -o ScratchOne --json", (error, stdout, stderr) => {
+  exec("cd ../.. && sf project retrieve preview -o ae-dev --json", (error, stdout, stderr) => {
     if (error) {
       logger.info(`error: ${error.message}`);
       return;
